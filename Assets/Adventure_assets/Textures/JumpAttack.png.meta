@@ -165,13 +165,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: JumpAttack_1
+      name: JumpAttack_5
       rect:
         serializedVersion: 2
-        x: 16
-        y: 256
-        width: 81
-        height: 102
+        x: 635
+        y: 226
+        width: 102
+        height: 158
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -186,10 +186,31 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
+      name: JumpAttack_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 256
+        width: 81
+        height: 102
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c70284db71e962130800000000000000
+      internalID: 3541691981770530940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
       name: JumpAttack_2
       rect:
         serializedVersion: 2
-        x: 145
+        x: 144
         y: 263
         width: 93
         height: 111
@@ -200,8 +221,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c70284db71e962130800000000000000
-      internalID: 3541691981770530940
+      spriteID: af6d0cb296d5c32d0800000000000000
+      internalID: -3297658120855038214
       vertices: []
       indices: 
       edges: []
@@ -221,8 +242,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: af6d0cb296d5c32d0800000000000000
-      internalID: -3297658120855038214
+      spriteID: c1065c2b362326580800000000000000
+      internalID: -8835444115165061092
       vertices: []
       indices: 
       edges: []
@@ -231,31 +252,10 @@ TextureImporter:
       name: JumpAttack_4
       rect:
         serializedVersion: 2
-        x: 394
-        y: 212
+        x: 425
+        y: 227
         width: 108
         height: 147
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c1065c2b362326580800000000000000
-      internalID: -8835444115165061092
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: JumpAttack_5
-      rect:
-        serializedVersion: 2
-        x: 525
-        y: 178
-        width: 102
-        height: 162
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -273,12 +273,12 @@ TextureImporter:
       name: JumpAttack_6
       rect:
         serializedVersion: 2
-        x: 49
-        y: 26
-        width: 189
-        height: 213
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 11
+        y: 17
+        width: 213
+        height: 222
+      alignment: 9
+      pivot: {x: 0.35560253, y: 0.000000085916604}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -294,19 +294,40 @@ TextureImporter:
       name: JumpAttack_8
       rect:
         serializedVersion: 2
-        x: 302
-        y: 38
-        width: 165
-        height: 142
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 432
+        y: 114
+        width: 175
+        height: 107
+      alignment: 9
+      pivot: {x: 0.24198051, y: -0.0061159222}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b8348e8fadf765c10800000000000000
-      internalID: 2041960059514667915
+      spriteID: b64f0381644273010800000000000000
+      internalID: 1168442511798105195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpAttack_7
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 26
+        width: 192
+        height: 219
+      alignment: 9
+      pivot: {x: 0.29209247, y: 0.000000052256127}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a12f9f7244e352146a01174988ddf0c7
+      internalID: 774827728
       vertices: []
       indices: 
       edges: []
@@ -315,10 +336,31 @@ TextureImporter:
       name: JumpAttack_9
       rect:
         serializedVersion: 2
-        x: 535
-        y: 0
-        width: 84
-        height: 95
+        x: 537
+        y: 2
+        width: 172
+        height: 112
+      alignment: 9
+      pivot: {x: 0.22226165, y: 0.00000010324376}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30433b9306dce944eb90a9b453540daa
+      internalID: -811786156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpAttack_10
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 31
+        width: 88
+        height: 102
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -326,8 +368,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b64f0381644273010800000000000000
-      internalID: 1168442511798105195
+      spriteID: 8e8945b9f91bae9459b8b2652796cb79
+      internalID: -1247787244
       vertices: []
       indices: 
       edges: []
@@ -343,14 +385,18 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      JumpAttack_5: 4840494861642812752
+      JumpAttack_5: 8483976198845052953
+      JumpAttack_14: -1765903180
       JumpAttack_6: 5075794252621282440
-      JumpAttack_3: -3297658120855038214
-      JumpAttack_2: 3541691981770530940
-      JumpAttack_4: -8835444115165061092
-      JumpAttack_1: 8483976198845052953
-      JumpAttack_8: 2041960059514667915
-      JumpAttack_9: 1168442511798105195
+      JumpAttack_0: -853874704
+      JumpAttack_7: 774827728
+      JumpAttack_3: -8835444115165061092
+      JumpAttack_2: -3297658120855038214
+      JumpAttack_4: 4840494861642812752
+      JumpAttack_1: 3541691981770530940
+      JumpAttack_8: 1168442511798105195
+      JumpAttack_10: -1247787244
+      JumpAttack_9: -811786156
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -204,8 +204,8 @@ TextureImporter:
       name: cat_run_2
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
+        x: 256
+        y: 128
         width: 128
         height: 128
       alignment: 7
@@ -225,7 +225,7 @@ TextureImporter:
       name: cat_run_3
       rect:
         serializedVersion: 2
-        x: 128
+        x: 0
         y: 0
         width: 128
         height: 128
@@ -238,6 +238,48 @@ TextureImporter:
       bones: []
       spriteID: 30586cebe1faab8e0800000000000000
       internalID: -1676835364657527549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cat_run_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 128
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27a65f60e4d69a440b1cbd53764572c6
+      internalID: 715995219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cat_run_5
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 128
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9de75c6d08c7e564ab6f1d79f01d80e5
+      internalID: -522903376
       vertices: []
       indices: 
       edges: []
@@ -256,6 +298,8 @@ TextureImporter:
       cat_run_2: 240338452095195125
       cat_run_0: -3179914104054990963
       cat_run_3: -1676835364657527549
+      cat_run_4: 715995219
+      cat_run_5: -522903376
       cat_run_1: -5885877765538938890
   spritePackingTag: 
   pSDRemoveMatte: 0
