@@ -33,7 +33,8 @@ Transform:
   m_LocalPosition: {x: 7.6, y: 0.76, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 659568054039106417}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -756,7 +757,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 1
           networkSync: 0
-          value: 5
+          value: 7
         - useVariable: 1
           name: BulletDame
           tooltip: 
@@ -768,7 +769,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 1
           networkSync: 0
-          value: 5
+          value: 7
         - useVariable: 0
           name: 
           tooltip: 
@@ -785,20 +786,20 @@ MonoBehaviour:
         fsmBoolParams: []
         fsmVector2Params:
         - useVariable: 1
-          name: pos
+          name: 
           tooltip: 
           showInInspector: 0
           networkSync: 0
           value: {x: 0, y: 0}
         - useVariable: 1
-          name: pos
+          name: 
           tooltip: 
           showInInspector: 0
           networkSync: 0
           value: {x: 0, y: 0}
         fsmVector3Params:
         - useVariable: 1
-          name: pos
+          name: 
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -939,7 +940,7 @@ MonoBehaviour:
         fsmVector2Params: []
         fsmVector3Params:
         - useVariable: 1
-          name: pos
+          name: 
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -996,7 +997,7 @@ MonoBehaviour:
       stringVariables: []
       vector2Variables:
       - useVariable: 1
-        name: pos
+        name: 
         tooltip: 
         showInInspector: 0
         networkSync: 0
@@ -1101,3 +1102,65 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TargetFSMs:
   - {fileID: 4627718415738817124}
+--- !u!1001 &8733089991975060964
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 4540449183066014423}
+    m_Modifications:
+    - target: {fileID: 6404421084321515780, guid: ec7491ef8ad7d0b4f8b2350596c657ba, type: 3}
+      propertyPath: m_Name
+      value: enemygethit_fb
+      objectReference: {fileID: 0}
+    - target: {fileID: 8076478834075178645, guid: ec7491ef8ad7d0b4f8b2350596c657ba, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8076478834075178645, guid: ec7491ef8ad7d0b4f8b2350596c657ba, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8076478834075178645, guid: ec7491ef8ad7d0b4f8b2350596c657ba, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8076478834075178645, guid: ec7491ef8ad7d0b4f8b2350596c657ba, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8076478834075178645, guid: ec7491ef8ad7d0b4f8b2350596c657ba, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8076478834075178645, guid: ec7491ef8ad7d0b4f8b2350596c657ba, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8076478834075178645, guid: ec7491ef8ad7d0b4f8b2350596c657ba, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8076478834075178645, guid: ec7491ef8ad7d0b4f8b2350596c657ba, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8076478834075178645, guid: ec7491ef8ad7d0b4f8b2350596c657ba, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8076478834075178645, guid: ec7491ef8ad7d0b4f8b2350596c657ba, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8076478834075178645, guid: ec7491ef8ad7d0b4f8b2350596c657ba, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ec7491ef8ad7d0b4f8b2350596c657ba, type: 3}
+--- !u!4 &659568054039106417 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8076478834075178645, guid: ec7491ef8ad7d0b4f8b2350596c657ba, type: 3}
+  m_PrefabInstance: {fileID: 8733089991975060964}
+  m_PrefabAsset: {fileID: 0}

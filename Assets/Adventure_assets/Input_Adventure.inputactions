@@ -9,7 +9,7 @@
                     "name": "Move",
                     "type": "Value",
                     "id": "847fea5f-5860-48f2-82e0-d0c2da3d5077",
-                    "expectedControlType": "Vector2",
+                    "expectedControlType": "Axis",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
@@ -88,7 +88,7 @@
                 {
                     "name": "2D Vector",
                     "id": "dc9893b4-8eb7-454e-b48c-a65f98635f65",
-                    "path": "2DVector",
+                    "path": "2DVector(mode=1)",
                     "interactions": "",
                     "processors": "",
                     "groups": "",

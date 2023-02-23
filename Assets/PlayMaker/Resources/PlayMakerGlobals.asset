@@ -44,6 +44,12 @@ MonoBehaviour:
       showInInspector: 0
       networkSync: 0
       value: 1
+    - useVariable: 1
+      name: Energy
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 1
     intVariables: []
     boolVariables:
     - useVariable: 1
@@ -109,7 +115,7 @@ MonoBehaviour:
       intValue: 0
     categories:
     - 
-    variableCategoryIDs: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    variableCategoryIDs: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   events:
   - moveL
   - moveR
@@ -121,3 +127,4 @@ MonoBehaviour:
   - shoot
   - slash
   - Dead
+  - playerTakedame
